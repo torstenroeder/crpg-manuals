@@ -1,0 +1,86 @@
+@font-face {
+    font-family:"PR Number 3";
+    src:url('PRNumber3.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+body {
+	background-color:black;
+	color:white;
+	font-family:"PR Number 3",courier, fixed, monospace;
+}
+div.title {
+	border-top:0.1em solid white;
+	border-bottom:0.1em solid white;
+	margin:1em 0;
+	padding:1em 0;
+}
+div.legend {
+	border-top:0.1em solid white;
+	border-bottom:0.1em solid white;
+	margin:1em 0;
+	padding:1em 0;
+}
+div.legend span.additional {
+	padding-right:1.25em;
+	padding-left:0.25em;
+	margin:0;
+}
+
+div.manuals div {
+	
+}
+span {
+	display:inline-block;
+	line-height:1.5rem;
+	width:0.7rem;
+	text-align:center;
+	border:0.05rem solid black;
+	color:white;
+	background-color:#333;
+}
+
+span.title {
+	width:20rem;
+	text-align:left;
+	color:white;
+	background-color:inherit;
+	display:inline-block;
+}
+
+span.additional {
+	min-width:1rem;
+	width:auto;
+	text-align:center;
+	color:white;
+	background-color:inherit;
+	display:inline-block;
+}
+span::before {
+	margin-left:0.15em;
+}
+
+span b { letter-spacing:0.15em; }
+
+span.fUsage,span.legend	{ background-color:#999; }
+span.fRules				{ background-color:#66f; }
+span.fStory				{ background-color:#6f6; }
+span.fDesc				{ background-color:#f96; }
+span.fPara				{ background-color:#c09; }
+span.fPeri				{ background-color:#666; }
+
+span.mProse:before		{ color:white; }
+span.mStruct:before		{ color:black; }
+span.mImage:before		{ text-decoration:underline white 0.2em; }
+span.mScreen:before		{ text-decoration:underline black 0.2em; }
+span.mDesign:before		{ }
+span.mVacat:before		{ }
+
+span.tWorld:before		{ content:'W'; }
+span.tPlayer:before		{ content:'P'; }
+span.tCreatures:before	{ content:'C'; }
+span.tBattle:before		{ content:'B'; }
+span.tArms:before		{ content:'A'; }
+span.tMagic:before		{ content:'M'; }
+span.tSpells:before		{ content:'S'; }
+span.legend:before		{ content:'X'; }

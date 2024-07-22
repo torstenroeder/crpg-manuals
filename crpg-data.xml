@@ -1,0 +1,1286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>CRPG Ludography</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>unpublished</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>CRPG manuals from the 1980s</p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<!-- modality (media): wie wurde das handbuch gestaltet? -->
+			<ab xml:id="mDesign">graphic design (cover, ad)</ab>
+			<ab xml:id="mStruct">structured text (toc, table, list, legend, glossary)</ab>
+			<ab xml:id="mProse">prose text (usually in paragraphs)</ab>
+			<ab xml:id="mImage">images (drawing, painting, graphic, photo)</ab>
+			<ab xml:id="mScreen">screenshots (computer monitor)</ab>
+			<ab xml:id="mMap">cartesian (map, dungeon)</ab>
+			<ab xml:id="mVacat">empty or reader's notes page</ab>
+			<!-- function -->
+			<ab xml:id="fPeri">peripherals (title, chapter, imprint, toc, ad, foreword, epilog)</ab>
+			<ab xml:id="fStory">main narrative, party setting</ab>
+			<ab xml:id="fUsage">program start, installation, general interface</ab>
+			<ab xml:id="fRules">RPG system, game rules, also functions</ab>
+			<ab xml:id="fDesc">immersive descriptions</ab>
+			<ab xml:id="fPara">ingame references</ab>
+			<!-- topic -->
+			<ab xml:id="tPlayer">character classes, attributes, abilities</ab>
+			<ab xml:id="tWorld">geography, settlements, transport, goods, trade, society</ab>
+			<ab xml:id="tBattle">combat rules, battle sequence</ab>
+			<ab xml:id="tCreatures">monsters, animals, enemies</ab>
+			<ab xml:id="tArms">weapons, armor, shields</ab>
+			<ab xml:id="tMagic">magic, reagents, ingredients, alchemy</ab>
+			<ab xml:id="tSpells">spells, prayers</ab>
+		</encodingDesc>
+	</teiHeader>
+	<text xml:id="temple-of-apshai_1979">
+		<body>
+			<head>Temple of Apshai</head>
+			<div xml:id="temple-of-apshai">
+				<bibl>
+					<title>Temple of Apshai</title>
+					<date>1979</date>
+					<publisher>Automated Simulations, Inc.</publisher>
+					<textLang>English</textLang>
+					<extent>60 pages</extent>
+				</bibl>
+				<pb n="[1]" ana="#mDesign #fPeri"/>
+				<pb n="2" ana="#mStruct #fPeri"/>
+				<pb n="3" ana="#mStruct #fPeri"/>
+				<pb n="4" ana="#mProse #fPeri"/>
+				<pb n="5" ana="#mProse #fRules"/>
+				<pb n="6" ana="#mProse #fRules"/>
+				<pb n="7" ana="#mProse #fRules"/>
+				<pb n="8" ana="#mProse #fRules #tPlayer"/>
+				<pb n="9" ana="#mProse #mImage #fRules #tPlayer"/>
+				<pb n="10" ana="#mProse #fRules #tPlayer"/>
+				<pb n="11" ana="#mProse #fRules #tPlayer"/>
+				<pb n="12" ana="#mStruct #mScreen #fRules #tWorld"/>
+				<pb n="13" ana="#mProse #fRules #tBattle"/>
+				<pb n="14" ana="#mProse #fRules"/>
+				<pb n="15" ana="#mProse #fRules"/>
+				<pb n="16" ana="#mProse #fRules #tPlayer"/>
+				<pb n="17" ana="#mProse #fRules #tPlayer"/>
+				<pb n="18" ana="#mProse #fRules"/>
+				<pb n="19" ana="#mImage"/>
+				<pb n="20" ana="#mImage"/>
+				<pb n="21" ana="#mProse #fStory"/>
+				<pb n="22" ana="#mProse #fStory"/>
+				<pb n="23" ana="#mProse #fStory"/>
+				<pb n="24" ana="#mProse #fStory"/>
+				<pb n="25" ana="#mProse #fDesc #tCreatures"/>
+				<pb n="26" ana="#mProse #fDesc #tCreatures"/>
+				<pb n="27" ana="#mProse #fDesc #tWorld"/>
+				<pb n="28" ana="#mProse #fDesc #tWorld"/>
+				<pb n="29" ana="#mProse #fDesc #tWorld"/>
+				<pb n="30" ana="#mProse #fDesc #tWorld"/>
+				<pb n="31" ana="#mProse #fDesc #tWorld"/>
+				<pb n="32" ana="#mProse #fDesc #tWorld"/>
+				<pb n="33" ana="#mProse #fPeri"/>
+				<pb n="L1-1" ana="#mprose #fPara"/>
+				<pb n="L1-2" ana="#mprose #fPara"/>
+				<pb n="L1-3" ana="#mprose #fPara"/>
+				<pb n="[L1-4]" ana="#mImage"/>
+				<pb n="L1-5" ana="#mprose #fPara"/>
+				<pb n="L1-6" ana="#mprose #fPara"/>
+				<pb n="L2-1" ana="#mprose #fPara"/>
+				<pb n="L2-2" ana="#mprose #fPara"/>
+				<pb n="L2-3" ana="#mprose #fPara"/>
+				<pb n="L2-4" ana="#mprose #fPara"/>
+				<pb n="L3-1" ana="#mprose #fPara"/>
+				<pb n="L3-2" ana="#mprose #fPara"/>
+				<pb n="L3-3" ana="#mprose #fPara"/>
+				<pb n="L3-4" ana="#mprose #fPara"/>
+				<pb n="L3-5" ana="#mprose #fPara"/>
+				<pb n="[L3-6]" ana="#mImage"/>
+				<pb n="L4-1" ana="#undefined"/>
+				<pb n="L4-2" ana="#undefined"/>
+				<pb n="L4-3" ana="#undefined"/>
+				<pb n="L4-4" ana="#undefined"/>
+				<pb n="L4-5" ana="#undefined"/>
+				<pb n="[55]" ana="#mVacat"/>
+				<pb n="[56]" ana="#mDesign #fPeri"/>
+			</div>
+		</body>
+	</text>
+	<text xml:id="akalabeth_1979">
+		<body>
+			<head>Akalabeth</head>
+			<div xml:id="akalabeth_manual">
+				<bibl>
+					<title>Akalabeth</title>
+					<title>World of Doom</title>
+					<date>1979</date>
+					<publisher>California Pacific Computer Co.</publisher>
+					<textLang>English</textLang>
+					<extent>8 pages</extent>
+				</bibl>
+				<pb n="[I]" ana="#mDesign #fPeri"/>
+				<pb n="[II]" ana="#mProse #mImage #fStory"/>
+				<pb n="[III]" ana="#mProse #mImage #fStory"/>
+				<pb n="[IV]" ana="#mProse #mImage #fRules #tPlayer"/>
+				<pb n="[V]" ana="#mProse #mImage #fRules #tWorld"/>
+				<pb n="[VI]" ana="#mStruct #mScreen #fRules #tWorld"/>
+				<pb n="[VII]" ana="#mStruct #mImage #fUsage"/>
+				<pb n="[VIII]" ana="#mDesign #fPeri"/>
+			</div>
+		</body>
+	</text>
+	<text xml:id="ultima_1981">
+		<body>
+			<head>Ultima</head>
+			<div xml:id="ultima_manual">
+				<bibl>
+					<title>Ultima Playbook</title>
+					<date>1981</date>
+					<publisher>California Pacific Computer Co.</publisher>
+					<textLang>English</textLang>
+					<extent>16 pages</extent>
+				</bibl>
+				<pb n="[FrontCover]" ana="#mDesign #fPeri"/>
+				<pb n="[FrontInside]" ana="#mVacat"/>
+				<pb n="[1]" ana="#mProse #mImage #fUsage"/>
+				<pb n="[2]" ana="#mProse #mImage #fRules #tPlayer"/>
+				<pb n="[3]" ana="#mProse #mImage #fRules #tArms"/>
+				<pb n="[4]" ana="#mScreen #fRules #tWorld"/>
+				<pb n="[5]" ana="#mProse #mImage #fRules #tWorld"/>
+				<pb n="[6]" ana="#mScreen #fRules #tWorld"/>
+				<pb n="[7]" ana="#mProse #mImage #fRules #tWorld"/>
+				<pb n="[8]" ana="#mScreen #fRules #tWorld"/>
+				<pb n="[9]" ana="#mProse #fRules #tWorld"/>
+				<pb n="[10]" ana="#mProse #fUsage"/>
+				<pb n="[11]" ana="#mVacat"/>
+				<pb n="[12]" ana="#mStruct #fPeri"/>
+				<pb n="[BackInside]" ana="#mVacat"/>
+				<pb n="[BackCover]" ana="#mStruct #fPeri"/>
+			</div>
+			<!--<div xml:id="ultima_player-reference-card">
+				<bibl>
+					<title>Ultima Player Reference Card</title>
+					<date>1981</date>
+					<publisher>California Pacific Computer Co.</publisher>
+					<textLang>English</textLang>
+					<extent>16 pages</extent>
+				</bibl>
+				<pb n="[1]" ana="#mDesign #fPeri"/>
+				<pb n="[2]" ana="#mStruct #fUsage"/>
+				<pb n="[3]" ana="#mStruct #fUsage"/>
+				<pb n="[4]" ana="#mStruct #fRules"/>
+			</div>-->
+		</body>
+	</text>
+	<text xml:id="wizardry_1981">
+		<body>
+			<head>Wizardry</head>
+			<div xml:id="wizardry_manual">
+				<bibl>
+					<title>Wizardry</title>
+					<date>1981</date>
+					<publisher>Sir-Tech Software Inc.</publisher>
+					<textLang>English</textLang>
+					<extent>56 pages</extent>
+				</bibl>
+				<pb n="[FrontCover]" ana="#mDesign #fPeri"/>
+				<pb n="[FrontInside]" ana="#mVacat"/>
+				<pb n="[I]" ana="#mProse #fPeri"/>
+				<pb n="[II]" ana="#mStruct #fPeri"/>
+				<pb n="[1]" ana="#mStruct #fPeri"/>
+				<pb n="2" ana="#mProse #fRules"/>
+				<pb n="3" ana="#mProse #fUsage"/>
+				<pb n="4" ana="#mProse #fUsage"/>
+				<pb n="5" ana="#mProse #mImage #fUsage"/>
+				<pb n="6" ana="#mProse #fRules"/>
+				<pb n="7" ana="#mProse #mImage #fRules"/>
+				<pb n="8" ana="#mProse #mImage #fRules"/>
+				<pb n="9" ana="#mProse #fRules"/>
+				<pb n="10" ana="#mProse #mImage #fRules"/>
+				<pb n="11" ana="#mProse #mScreen #fUsage"/>
+				<pb n="12" ana="#mProse #mImage #fUsage"/>
+				<pb n="13" ana="#mProse #mScreen #fUsage"/>
+				<pb n="14" ana="#mProse #mScreen #fUsage"/>
+				<pb n="15" ana="#mProse #mImage #fDesc #tWorld"/>
+				<pb n="16" ana="#mProse #mImage #mScreen #fUsage"/>
+				<pb n="17" ana="#mProse #fUsage"/>
+				<pb n="18" ana="#mProse #mImage #mScreen #fUsage"/>
+				<pb n="19" ana="#mProse #mImage #mScreen #fUsage"/>
+				<pb n="20" ana="#mProse #mImage #fDesc #tWorld"/>
+				<pb n="21" ana="#mProse #mScreen #fUsage"/>
+				<pb n="22" ana="#mProse #mScreen #fUsage"/>
+				<pb n="23" ana="#mProse #mScreen #fUsage"/>
+				<pb n="24" ana="#mProse #mScreen #fUsage"/>
+				<pb n="25" ana="#mProse #mScreen #fUsage"/>
+				<pb n="26" ana="#mProse #mScreen #fUsage"/>
+				<pb n="27" ana="#mScreen #mImage #fUsage"/>
+				<pb n="28" ana="#mProse #fUsage"/>
+				<pb n="29" ana="#mProse #mScreen #fRules #tBattle"/>
+				<pb n="30" ana="#mProse #mScreen #fRules #tBattle"/>
+				<pb n="31" ana="#mProse #mScreen #mImage #fRules #tBattle"/>
+				<pb n="32" ana="#mProse #fRules #tBattle"/>
+				<pb n="33" ana="#mProse #mScreen #mImage #fRules #tBattle"/>
+				<pb n="34" ana="#mProse #fRules #tBattle"/>
+				<pb n="35" ana="#mProse #fRules #tBattle"/>
+				<pb n="36" ana="#mProse #fRules #tMagic"/>
+				<pb n="37" ana="#mStruct #mImage #fRules #tSpells"/>
+				<pb n="38" ana="#mStruct #fRules #tSpells"/>
+				<pb n="39" ana="#mStruct #fRules #tSpells"/>
+				<pb n="40" ana="#mStruct #fRules #tSpells"/>
+				<pb n="41" ana="#mStruct #fRules #tSpells"/>
+				<pb n="42" ana="#mStruct #fRules #tSpells"/>
+				<pb n="43" ana="#mStruct #fRules #tSpells"/>
+				<pb n="44" ana="#mStruct #fRules #tSpells"/>
+				<pb n="45" ana="#mStruct #fRules #tSpells"/>
+				<pb n="46" ana="#mStruct #mScreen #fRules #tSpells"/>
+				<pb n="47" ana="#mStruct #fUsage"/>
+				<pb n="48" ana="#mProse #fPeri"/>
+				<pb n="[49]" ana="#mVacat"/>
+				<pb n="[50]" ana="#mVacat"/>
+				<pb n="[BackInside]" ana="#mVacat"/>
+				<pb n="[BackCover]" ana="#mStruct #fPeri"/>
+			</div>
+		</body>
+	</text>
+	<text xml:id="ultima-ii_1982">
+		<body>
+			<head>Ultima II</head>
+			<div xml:id="ultima-ii_manual">
+				<bibl>
+					<title>Ultima II</title>
+					<date>1982</date>
+					<publisher>Sierra On-Line Inc.</publisher>
+					<textLang>English</textLang>
+					<extent>20 pages</extent>
+				</bibl>
+				<pb n="[FrontCover]" ana="#mDesign #fPeri"/>
+				<pb n="[FrontInside]" ana="#mVacat"/>
+				<pb n="1" ana="#mProse #fUsage"/>
+				<pb n="2" ana="#mProse #fUsage"/>
+				<pb n="3" ana="#mStruct #fUsage"/>
+				<pb n="4" ana="#mStruct #fUsage #tSpells"/>
+				<pb n="5" ana="#mProse #fRules"/>
+				<pb n="6" ana="#mProse #fRules"/>
+				<pb n="7" ana="#mProse #fDesc #tWorld"/>
+				<pb n="8" ana="#mProse #fRules #tWorld"/>
+				<pb n="9" ana="#mProse #fRules #tWorld"/>
+				<pb n="10" ana="#mProse #fDesc #tWorld"/>
+				<pb n="11" ana="#mStruct #fDesc #tCreatures"/>
+				<pb n="12" ana="#mStruct #fDesc #tWorld"/>
+				<pb n="13" ana="#mStruct #mImage #fDesc #tWorld"/>
+				<pb n="14" ana="#mProse #fStory"/>
+				<pb n="15" ana="#mProse #fStory"/>
+				<pb n="16" ana="#mStruct #fPeri"/>
+				<pb n="[BackInside]" ana="#mVacat"/>
+				<pb n="[BackCover]" ana="#mDesign #fPeri"/>
+			</div>
+		</body>
+	</text>
+	<text xml:id="ultima-iii_1983">
+		<body>
+			<head>Exodus: Ultima III</head>
+			<div xml:id="ultima-iii_manual">
+				<bibl>
+					<title>The Book of Play</title>
+					<date>1983</date>
+					<publisher>Origin Systems</publisher>
+					<textLang>English</textLang>
+					<extent>24 pages</extent>
+				</bibl>
+				<pb n="[FrontCover]" ana="#mDesign #fPeri"/>
+				<pb n="[FrontInside]" ana="#mVacat"/>
+				<pb n="[1]" ana="#mProse #mImage #fStory"/>
+				<pb n="[2]" ana="#mProse #mStruct #fUsage"/>
+				<pb n="[3]" ana="#mProse #fUsage"/>
+				<pb n="[4]" ana="#mProse #fRules"/>
+				<pb n="[5]" ana="#mStruct #mImage #fRules"/>
+				<pb n="[6]" ana="#mProse #fRules"/>
+				<pb n="[7]" ana="#mScreen #fRules"/>
+				<pb n="[8]" ana="#mProse #fRules"/>
+				<pb n="[9]" ana="#mScreen #fRules"/>
+				<pb n="[10]" ana="#mProse #mImage #fRules"/>
+				<pb n="[11]" ana="#mProse #mImage #fDesc #tWorld"/>
+				<pb n="[12]" ana="#mProse #mImage #fDesc #tWorld"/>
+				<pb n="[13]" ana="#mProse #mImage #fDesc #tWorld"/>
+				<pb n="[14]" ana="#mProse #mImage #fDesc #tWorld"/>
+				<pb n="[15]" ana="#mProse #mImage #fDesc #tWorld"/>
+				<pb n="[16]" ana="#mProse #mImage #fDesc #tCreatures"/>
+				<pb n="[17]" ana="#mProse #mImage #fDesc #tCreatures"/>
+				<pb n="[18]" ana="#mProse #mImage #fDesc #tCreatures"/>
+				<pb n="[19]" ana="#mProse #mImage #fDesc #tCreatures"/>
+				<pb n="[20]" ana="#mProse #fStory"/>
+				<pb n="[BackInside]" ana="#mVacat"/>
+				<pb n="[BackCover]" ana="#mProse #fPeri"/>
+			</div>
+			<div xml:id="ultima-iii_the-book-of-amber-runes">
+				<bibl>
+					<title>The Book of Amber Runes</title>
+					<date>1983</date>
+					<publisher>Origin Systems</publisher>
+					<textLang>English</textLang>
+					<extent>20 pages</extent>
+				</bibl>
+				<pb n="[FrontCover]" ana="#mDesign #fPeri"/>
+				<pb n="[FrontInside]" ana="#mProse #fDesc #tMagic"/>
+				<pb n="[1]" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="[2]" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="[3]" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="[4]" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="[5]" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="[6]" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="[7]" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="[8]" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="[9]" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="[10]" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="[11]" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="[12]" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="[13]" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="[14]" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="[15]" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="[16]" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="[BackInside]" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="[BackCover]" ana="#mProse #fPeri"/>
+			</div>
+			<div xml:id="ultima-iii_the-ancient-liturgy-of-truth">
+				<bibl>
+					<title>The Ancient Liturgy of Truth</title>
+					<date>1983</date>
+					<publisher>Origin Systems</publisher>
+					<textLang>English</textLang>
+					<extent>20 pages</extent>
+				</bibl>
+				<pb n="[FrontCover]" ana="#mDesign #fPeri"/>
+				<pb n="[FrontInside]" ana="#mProse #fDesc #tMagic"/>
+				<pb n="[1]" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="[2]" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="[3]" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="[4]" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="[5]" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="[6]" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="[7]" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="[8]" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="[9]" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="[10]" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="[11]" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="[12]" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="[13]" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="[14]" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="[15]" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="[16]" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="[BackInside]" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="[BackCover]" ana="#mProse #fPeri"/>
+			</div>
+			<!--<div xml:id="ultima-iii_reference-card">
+				<bibl>
+					<title>Player Reference Card</title>
+					<date>1983</date>
+					<publisher>Origin Systems</publisher>
+					<textLang>English</textLang>
+					<extent>4 pages</extent>
+				</bibl>
+				<pb n="[1]" ana="#mDesign #fPeri"/>
+				<pb n="[2]" ana="#mStruct #fUsage"/>
+				<pb n="[3]" ana="#mStruct #fUsage"/>
+				<pb n="[4]" ana="#mStruct #fDesc #tSpells"/>
+			</div>-->
+		</body>
+	</text>
+	<text xml:id="the-bards-tale">
+		<body>
+			<head>The Bard's Tale</head>
+			<div xml:id="the-bards-tale_manual">
+				<bibl>
+					<title>The Bard's Tale</title>
+					<date>1985</date>
+					<publisher>Electronic Arts</publisher>
+					<textLang>English</textLang>
+					<extent>24 pages</extent>
+				</bibl>
+				<pb n="[Front]" ana="#mProse #mImage #fPeri"/>
+				<pb n="1" ana="#mProse #fUsage"/>
+				<pb n="2" ana="#mProse #fUsage"/>
+				<pb n="3" ana="#mProse #fRules #tPlayer"/>
+				<pb n="4" ana="#mProse #fRules #tPlayer"/>
+				<pb n="5" ana="#mProse #fRules #tPlayer"/>
+				<pb n="6" ana="#mProse #fRules #tPlayer"/>
+				<pb n="7" ana="#mProse #fRules #tWorld"/>
+				<pb n="8" ana="#mProse #fRules #tWorld"/>
+				<pb n="9" ana="#mProse #fRules #tBattle"/>
+				<pb n="10" ana="#mProse #fRules #tBattle"/>
+				<pb n="11" ana="#mProse #fRules #tMagic"/>
+				<pb n="12" ana="#mProse #fRules #tMagic"/>
+				<pb n="13" ana="#mProse #mImage #fRules #tSpells"/>
+				<pb n="14" ana="#mProse #fRules #tSpells"/>
+				<pb n="15" ana="#mProse #mImage #fRules #tSpells"/>
+				<pb n="16" ana="#mProse #fRules #tSpells"/>
+				<pb n="17" ana="#mProse #mImage #fRules #tSpells"/>
+				<pb n="18" ana="#mProse #fRules #tSpells"/>
+				<pb n="19" ana="#mProse #mImage #fRules #tSpells"/>
+				<pb n="20" ana="#mProse #fRules #tSpells"/>
+				<pb n="21" ana="#mProse #fRules"/>
+				<pb n="22" ana="#mProse #fRules #tWorld"/>
+				<pb n="[Back]" ana="#mProse #fPeri"/>
+			</div>
+		</body>
+	</text>
+	<text xml:id="ultima-iv_1985">
+		<body>
+			<head>Ultima IV: Quest of the Avatar</head>
+			<div xml:id="ultima-iv_manual">
+				<bibl>
+					<title>Manual</title>
+					<date>1985</date>
+					<publisher>Origin Systems</publisher>
+					<textLang>English</textLang>
+					<extent>40 pages</extent>
+				</bibl>
+				<pb n="[FrontCover]" ana="#mDesign #fPeri"/>
+				<pb n="[FrontInside]" ana="#mVacat"/>
+				<pb n="1" ana="#mProse #mImage #fStory"/>
+				<pb n="2" ana="#mProse #mImage #fStory"/>
+				<pb n="3" ana="#mProse #mImage #fDesc #tWorld"/>
+				<pb n="4" ana="#mProse #mImage #fDesc #tWorld"/>
+				<pb n="5" ana="#mProse #fDesc #tWorld"/>
+				<pb n="6" ana="#mProse #mImage #fDesc #tWorld"/>
+				<pb n="7" ana="#mProse #mImage #fDesc #tPlayer"/>
+				<pb n="8" ana="#mProse #mImage #fDesc #tPlayer"/>
+				<pb n="9" ana="#mProse #mImage #fDesc #tPlayer"/>
+				<pb n="10" ana="#mProse #fDesc #tPlayer"/>
+				<pb n="11" ana="#mProse #mImage #fDesc #tWorld"/>
+				<pb n="12" ana="#mProse #mImage #fDesc #tWorld"/>
+				<pb n="13" ana="#mProse #fDesc #tWorld"/>
+				<pb n="14" ana="#mProse #mImage #fDesc #tWorld"/>
+				<pb n="15" ana="#mProse #fDesc #tWorld"/>
+				<pb n="16" ana="#mProse #mImage #fDesc #tWorld"/>
+				<pb n="17" ana="#mProse #fDesc #tWorld"/>
+				<pb n="18" ana="#mProse #fDesc #tArms"/>
+				<pb n="19" ana="#mProse #fDesc #tArms"/>
+				<pb n="20" ana="#mProse #mImage #fDesc #tArms"/>
+				<pb n="21" ana="#mProse #mImage #fDesc #tMagic"/>
+				<pb n="22" ana="#mProse #fDesc #tMagic"/>
+				<pb n="23" ana="#mProse #mImage #fDesc #tCreatures"/>
+				<pb n="24" ana="#mProse #mImage #fDesc #tCreatures"/>
+				<pb n="25" ana="#mProse #mImage #fDesc #tCreatures"/>
+				<pb n="26" ana="#mProse #mImage #fDesc #tCreatures"/>
+				<pb n="27" ana="#mProse #mImage #fDesc #tCreatures"/>
+				<pb n="28" ana="#mProse #mImage #fDesc #tCreatures"/>
+				<pb n="29" ana="#mProse #mImage #fDesc #tCreatures"/>
+				<pb n="30" ana="#mProse #mImage #fDesc #tCreatures"/>
+				<pb n="31" ana="#mProse #fRules #tBattle"/>
+				<pb n="32" ana="#mProse #fRules #tBattle"/>
+				<pb n="33" ana="#mProse #mImage #fStory"/>
+				<pb n="34" ana="#mProse #fStory"/>
+				<pb n="35" ana="#mProse #fStory"/>
+				<pb n="36" ana="#mProse #mImage #fStory"/>
+				<pb n="[BackCover]" ana="#mImage #fDesc #tWorld"/>
+				<pb n="[BackInside]" ana="#mProse #fPeri"/>
+			</div>
+			<div xml:id="ultima-iv_spellbook">
+				<bibl>
+					<title>The Book of Ancient Wisdom</title>
+					<date>1985</date>
+					<publisher>Origin Systems</publisher>
+					<textLang>English</textLang>
+					<extent>60 pages</extent>
+				</bibl>
+				<pb n="[FrontCover]" ana="#mDesign #fPeri"/>
+				<pb n="1" ana="#mProse #fRules #tMagic"/>
+				<pb n="2" ana="#mProse #fDesc #tMagic"/>
+				<pb n="3" ana="#mProse #fDesc #tMagic"/>
+				<pb n="4" ana="#mProse #fDesc #tMagic"/>
+				<pb n="5" ana="#mProse #fDesc #tMagic"/>
+				<pb n="6" ana="#mProse #fDesc #tMagic"/>
+				<pb n="7" ana="#mProse #fDesc #tMagic"/>
+				<pb n="8" ana="#mProse #fDesc #tMagic"/>
+				<pb n="9" ana="#mProse #fRules #tMagic"/>
+				<pb n="10" ana="#mProse #fDesc #tSpells"/>
+				<pb n="11" ana="#mProse #fDesc #tSpells"/>
+				<pb n="12" ana="#mImage #fDesc #tSpells"/>
+				<pb n="13" ana="#mProse #fDesc #tSpells"/>
+				<pb n="14" ana="#mImage #fDesc #tSpells"/>
+				<pb n="15" ana="#mProse #fDesc #tSpells"/>
+				<pb n="16" ana="#mImage #fDesc #tSpells"/>
+				<pb n="17" ana="#mProse #fDesc #tSpells"/>
+				<pb n="18" ana="#mImage #fDesc #tSpells"/>
+				<pb n="19" ana="#mProse #fDesc #tSpells"/>
+				<pb n="20" ana="#mImage #fDesc #tSpells"/>
+				<pb n="21" ana="#mProse #fDesc #tSpells"/>
+				<pb n="22" ana="#mImage #fDesc #tSpells"/>
+				<pb n="23" ana="#mProse #fDesc #tSpells"/>
+				<pb n="24" ana="#mImage #fDesc #tSpells"/>
+				<pb n="25" ana="#mProse #fDesc #tSpells"/>
+				<pb n="26" ana="#mImage #fDesc #tSpells"/>
+				<pb n="27" ana="#mProse #fDesc #tSpells"/>
+				<pb n="28" ana="#mImage #fDesc #tSpells"/>
+				<pb n="29" ana="#mProse #fDesc #tSpells"/>
+				<pb n="30" ana="#mImage #fDesc #tSpells"/>
+				<pb n="31" ana="#mProse #fDesc #tSpells"/>
+				<pb n="32" ana="#mImage #fDesc #tSpells"/>
+				<pb n="33" ana="#mProse #fDesc #tSpells"/>
+				<pb n="34" ana="#mImage #fDesc #tSpells"/>
+				<pb n="35" ana="#mProse #fDesc #tSpells"/>
+				<pb n="36" ana="#mImage #fDesc #tSpells"/>
+				<pb n="37" ana="#mProse #fDesc #tSpells"/>
+				<pb n="38" ana="#mImage #fDesc #tSpells"/>
+				<pb n="39" ana="#mProse #fDesc #tSpells"/>
+				<pb n="40" ana="#mImage #fDesc #tSpells"/>
+				<pb n="41" ana="#mProse #fDesc #tSpells"/>
+				<pb n="42" ana="#mImage #fDesc #tSpells"/>
+				<pb n="43" ana="#mProse #fDesc #tSpells"/>
+				<pb n="44" ana="#mImage #fDesc #tSpells"/>
+				<pb n="45" ana="#mProse #fDesc #tSpells"/>
+				<pb n="46" ana="#mImage #fDesc #tSpells"/>
+				<pb n="47" ana="#mProse #fDesc #tSpells"/>
+				<pb n="48" ana="#mImage #fDesc #tSpells"/>
+				<pb n="49" ana="#mProse #fDesc #tSpells"/>
+				<pb n="50" ana="#mImage #fDesc #tSpells"/>
+				<pb n="51" ana="#mProse #fDesc #tSpells"/>
+				<pb n="52" ana="#mImage #fDesc #tSpells"/>
+				<pb n="53" ana="#mProse #fDesc #tSpells"/>
+				<pb n="54" ana="#mImage #fDesc #tSpells"/>
+				<pb n="55" ana="#mProse #fDesc #tSpells"/>
+				<pb n="56" ana="#mImage #fDesc #tSpells"/>
+				<pb n="57" ana="#mProse #fDesc #tSpells"/>
+				<pb n="58" ana="#mImage #fDesc #tSpells"/>
+				<pb n="59" ana="#mProse #fDesc #tSpells"/>
+				<pb n="60" ana="#mImage #fDesc #tSpells"/>
+				<pb n="61" ana="#mProse #fDesc #tSpells"/>
+				<pb n="[BackInside]" ana="#mVacat"/>
+				<pb n="[BackCover]" ana="#mVacat"/>
+			</div>
+		</body>
+	</text>
+	<text xml:id="might-and-magic_1986">
+		<body>
+			<head>Might and Magic</head>
+			<div xml:id="might-and-magic_manual">
+				<bibl>
+					<title>Might and Magic</title>
+					<date>1986</date>
+					<publisher>New World Computing Inc.</publisher>
+					<textLang>English</textLang>
+					<extent>50 pages</extent>
+				</bibl>
+				<pb n="[FrontCover]" ana="#mDesign #fPeri"/>
+				<pb n="[FrontInside]" ana="#mDesign #fPeri"/>
+				<pb n="[i]" ana="#mProse #fPeri"/>
+				<pb n="[ii]" ana="#mProse #mImage #fPeri"/>
+				<pb n="[iii]" ana="#mDesign #fPeri"/>
+				<pb n="[iv]" ana="#mStruct #fPeri"/>
+				<pb n="1" ana="#mProse #mImage #fUsage"/>
+				<pb n="2" ana="#mPrise #mScreen #fUsage"/>
+				<pb n="3" ana="#mProse #mImage #fUsage"/>
+				<pb n="4" ana="#mProse #mImage #fUsage"/>
+				<pb n="5" ana="#mProse #mScreen #fUsage"/>
+				<pb n="6" ana="#mProse #fUsage"/>
+				<pb n="7" ana="#mProse #mScreen #fUsage"/>
+				<pb n="8" ana="#mProse #mScreen #fUsage"/>
+				<pb n="9" ana="#mProse #mImage #fUsage"/>
+				<pb n="10" ana="#mStruct #fUsage"/>
+				<pb n="11" ana="#mStruct #fUsage"/>
+				<pb n="12" ana="#mStruct #mImage #fUsage"/>
+				<pb n="13" ana="#mProse #mImage #mScreen #fRules"/>
+				<pb n="14" ana="#mStruct #mImage #fUsage"/>
+				<pb n="15" ana="#mProse #mScreen #fRules #tBattle"/>
+				<pb n="16" ana="#mProse #mImage #fRules #tBattle"/>
+				<pb n="17" ana="#mProse #mImage #fRules #tBattle"/>
+				<pb n="18" ana="#mStruct #fRules #tBattle"/>
+				<pb n="19" ana="#mProse #mImage #fRules #tBattle"/>
+				<pb n="20" ana="#mProse #fDesc #tWorld"/>
+				<pb n="21" ana="#mProse #mImage #fRules"/>
+				<pb n="22" ana="#mProse #fDesc #tWorld"/>
+				<pb n="23" ana="#mStruct #fRules"/>
+				<pb n="24" ana="#mStruct #fRules"/>
+				<pb n="25" ana="#mStruct #fRules"/>
+				<pb n="26" ana="#mStruct #mImage #fRules"/>
+				<pb n="27" ana="#mStruct #mImage #fRules"/>
+				<pb n="28" ana="#mStruct #fRules #tMagic"/>
+				<pb n="29" ana="#mStruct #fDesc #tSpells"/>
+				<pb n="30" ana="#mStruct #fDesc #tSpells"/>
+				<pb n="31" ana="#mStruct #fDesc #tSpells"/>
+				<pb n="32" ana="#mStruct #fDesc #tSpells"/>
+				<pb n="33" ana="#mStruct #fDesc #tSpells"/>
+				<pb n="34" ana="#mStruct #fDesc #tSpells"/>
+				<pb n="35" ana="#mStruct #fDesc #tSpells"/>
+				<pb n="36" ana="#mStruct #fDesc #tSpells"/>
+				<pb n="37" ana="#mStruct #fDesc #tSpells"/>
+				<pb n="38" ana="#mStruct #fDesc #tSpells"/>
+				<pb n="39" ana="#mStruct #fDesc #tSpells"/>
+				<pb n="40" ana="#mStruct #fDesc #tSpells"/>
+				<pb n="41" ana="#mStruct #fDesc #tSpells"/>
+				<pb n="42" ana="#mStruct #fDesc #tSpells"/>
+				<pb n="43" ana="#mMap #fDesc #tWorld"/>
+				<pb n="44" ana="#mStruct #fDesc #tSpells"/>
+			</div>
+		</body>
+	</text>
+	<text xml:id="faery-tale-adventure_1987">
+		<body>
+			<head>The Faery Tale Adventure</head>
+			<div xml:id="faery-tale-adventure_manual">
+				<bibl>
+					<title>The Faery Tale Adventure</title>
+					<title>Players Instructions</title>
+					<date>1987</date>
+					<publisher>MicroIllusions</publisher>
+					<textLang>English</textLang>
+					<extent>20 pages</extent>
+				</bibl>
+				<pb n="[I]" ana="#mDesign #fPeri"/>
+				<pb n="[II]" ana="#mVacat"/>
+				<pb n="1" ana="#mProse #mImage #fStory"/>
+				<pb n="2" ana="#mProse #mImage #fStory"/>
+				<pb n="3" ana="#mProse #mImage #fStory"/>
+				<pb n="4" ana="#mProse #mImage #fStory"/>
+				<pb n="5" ana="#mProse #mImage #fStory"/>
+				<pb n="6" ana="#mProse #mImage #fStory"/>
+				<pb n="7" ana="#mProse #mImage #fStory"/>
+				<pb n="8" ana="#mProse #mImage #fStory"/>
+				<pb n="9" ana="#mProse #mImage #fStory"/>
+				<pb n="[10]" ana="#mProse #fUsage"/>
+				<pb n="[11]" ana="#mProse #fUsage #fRules"/>
+				<pb n="[12]" ana="#mProse #fUsage #fRules"/>
+				<pb n="[13]" ana="#mProse #fUsage"/>
+				<pb n="[14]" ana="#mProse #fPeri"/>
+			</div>
+		</body>
+	</text>
+	<text xml:id="dungeon-master_1987">
+		<body>
+			<head>Dungeon Master</head>
+			<div xml:id="dungeon-master_manual">
+				<bibl>
+					<title>Dungeon Master</title>
+					<date>1987</date>
+					<publisher>FTL</publisher>
+					<textLang>English</textLang>
+					<extent>52 pages</extent>
+				</bibl>
+				<pb n="[FrontCover]" ana="#mDesign #fPeri"/>
+				<pb n="[FrontInside]" ana="#mVacat"/>
+				<pb n="[i]" ana="#mStruct #fPeri"/>
+				<pb n="[ii]" ana="#mProse #fPeri"/>
+				<pb n="[iii]" ana="#mStruct #fPeri"/>
+				<pb n="[iv]" ana="#mImage #fStory"/>
+				<pb n="I" ana="#mProse #fStory"/>
+				<pb n="II" ana="#mProse #fStory"/>
+				<pb n="III" ana="#mProse #fStory"/>
+				<pb n="IV" ana="#mProse #fStory"/>
+				<pb n="V" ana="#mProse #fStory"/>
+				<pb n="VI" ana="#mProse #fStory"/>
+				<pb n="VII" ana="#mProse #fStory"/>
+				<pb n="VIII" ana="#mProse #fStory"/>
+				<pb n="IX" ana="#mProse #fStory"/>
+				<pb n="X" ana="#mProse #fStory"/>
+				<pb n="XI" ana="#mProse #fStory"/>
+				<pb n="XII" ana="#mProse #fStory"/>
+				<pb n="XIII" ana="#mProse #fStory"/>
+				<pb n="XIV" ana="#mProse #fStory"/>
+				<pb n="XV" ana="#mProse #fStory"/>
+				<pb n="XVI" ana="#mProse #fStory"/>
+				<pb n="XVII" ana="#mProse #fStory"/>
+				<pb n="XVIII" ana="#mProse #fStory"/>
+				<pb n="1" ana="#mProse #mScreen #fUsage"/>
+				<pb n="2" ana="#mProse #mScreen #fRules"/>
+				<pb n="3" ana="#mProse #fRules"/>
+				<pb n="4" ana="#mProse #mImage #fUsage"/>
+				<pb n="5" ana="#mProse #mScreen #fUsage"/>
+				<pb n="6" ana="#mProse #mScreen #fUsage"/>
+				<pb n="7" ana="#mProse #mScreen #fUsage"/>
+				<pb n="8" ana="#mProse #mScreen #fUsage"/>
+				<pb n="9" ana="#mProse #mScreen #fUsage"/>
+				<pb n="10" ana="#mProse #mScreen #fUsage"/>
+				<pb n="11" ana="#mProse #mScreen #fUsage"/>
+				<pb n="12" ana="#mProse #mScreen #fUsage"/>
+				<pb n="13" ana="#mProse #mScreen #fUsage"/>
+				<pb n="14" ana="#mProse #mScreen #fUsage"/>
+				<pb n="15" ana="#mProse #mScreen #fUsage"/>
+				<pb n="16" ana="#mProse #mImage #fRules"/>
+				<pb n="17" ana="#mProse #fRules"/>
+				<pb n="18" ana="#mImage #fRules #tMagic"/>
+				<pb n="19" ana="#mProse #fRules #tMagic"/>
+				<pb n="20" ana="#mProse #fRules #tMagic"/>
+				<pb n="21" ana="#mProse #mImage #fRules #tMagic"/>
+				<pb n="22" ana="#mProse #mImage #fDesc #tMagic"/>
+				<pb n="23" ana="#mProse #mImage #fDesc #tMagic"/>
+				<pb n="24" ana="#mProse #mImage #fDesc #tMagic"/>
+				<pb n="25" ana="#mProse #mImage #fDesc #tMagic"/>
+				<pb n="26" ana="#mImage #fDesc #tMagic"/>
+				<pb n="[BackInside]" ana="#mVacat"/>
+				<pb n="[BackCover]" ana="#mDesign #fPeri"/>
+			</div>
+		</body>
+	</text>
+	<text xml:id="ultima-v">
+		<body>
+			<head>Ultima V</head>
+			<div xml:id="ultima-v_the-book-of-lore">
+				<bibl>
+					<title>The Book of Lore</title>
+					<date>1985</date>
+					<publisher>Electronic Arts</publisher>
+					<textLang>English</textLang>
+					<extent>60 pages</extent>
+				</bibl>
+				<pb n="[FrontCover]" ana="#mDesign #fPeri"/>
+				<pb n="[FrontInside]" ana="#mVacat"/>
+				<pb n="1" ana="#mStruct #fPeri"/>
+				<pb n="2" ana="#mProse #mImage #fStory"/>
+				<pb n="3" ana="#mProse #fStory"/>
+				<pb n="4" ana="#mProse #fStory"/>
+				<pb n="5" ana="#mProse #mImage #fStory"/>
+				<pb n="6" ana="#mProse #mImage #fDesc #tWorld"/>
+				<pb n="7" ana="#mProse #mImage #fDesc #tWorld"/>
+				<pb n="8" ana="#mProse #mImage #fDesc #tWorld"/>
+				<pb n="9" ana="#mProse #fDesc #tWorld"/>
+				<pb n="10" ana="#mProse #mImage #fDesc #tWorld"/>
+				<pb n="11" ana="#mProse #mImage #fDesc #tWorld"/>
+				<pb n="12" ana="#mProse #mImage #fDesc #tWorld"/>
+				<pb n="13" ana="#mProse #mImage #fDesc #tWorld"/>
+				<pb n="14" ana="#mProse #fDesc #tWorld"/>
+				<pb n="15" ana="#mProse #mImage #fDesc #tWorld"/>
+				<pb n="16" ana="#mProse #mImage #fDesc #tWorld"/>
+				<pb n="17" ana="#mProse #mImage #fDesc #tWorld"/>
+				<pb n="18" ana="#mProse #mImage #fDesc #tWorld"/>
+				<pb n="19" ana="#mProse #mImage #fDesc #tWorld"/>
+				<pb n="20" ana="#mProse #mImage #fDesc #tWorld"/>
+				<pb n="21" ana="#mProse #mImage #fRules #tBattle"/>
+				<pb n="22" ana="#mProse #fRules #tBattle"/>
+				<pb n="23" ana="#mProse #mImage #fRules #tArms"/>
+				<pb n="24" ana="#mProse #fRules #tArms"/>
+				<pb n="25" ana="#mProse #mImage #fDesc #tCreatures"/>
+				<pb n="26" ana="#mProse #mImage #fDesc #tCreatures"/>
+				<pb n="27" ana="#mProse #mImage #fDesc #tCreatures"/>
+				<pb n="28" ana="#mProse #mImage #fDesc #tCreatures"/>
+				<pb n="29" ana="#mProse #mImage #fDesc #tCreatures"/>
+				<pb n="30" ana="#mProse #mImage #fDesc #tCreatures"/>
+				<pb n="31" ana="#mProse #mImage #fRules #tWorld"/>
+				<pb n="32" ana="#mProse #mImage #fRules #tMagic"/>
+				<pb n="33" ana="#mProse #fDesc #tMagic"/>
+				<pb n="34" ana="#mProse #fDesc #tMagic"/>
+				<pb n="35" ana="#mStruct #fRules #tMagic"/>
+				<pb n="36" ana="#mVacat"/>
+				<pb n="37" ana="#mDesign #fPeri"/>
+				<pb n="38" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="39" ana="#mProse #fDesc #tSpells"/>
+				<pb n="40" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="41" ana="#mProse #fDesc #tSpells"/>
+				<pb n="42" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="43" ana="#mProse #fDesc #tSpells"/>
+				<pb n="44" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="45" ana="#mProse #fDesc #tSpells"/>
+				<pb n="46" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="47" ana="#mProse #fDesc #tSpells"/>
+				<pb n="48" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="49" ana="#mProse #fDesc #tSpells"/>
+				<pb n="50" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="51" ana="#mProse #fDesc #tSpells"/>
+				<pb n="52" ana="#mProse #mImage #fDesc #tSpells"/>
+				<pb n="53" ana="#mProse #fDesc #tSpells"/>
+				<pb n="54" ana="#mProse #fStory"/>
+				<pb n="[55]" ana="#mVacat"/>
+				<pb n="[56]" ana="#mVacat"/>
+				<pb n="[BackInside]" ana="#mProse #fPeri"/>
+				<pb n="[BackCover]" ana="#mStruct #fPeri"/>
+			</div>
+			<div xml:id="ultima-v_journey-log">
+				<bibl>
+					<title>Journey Log</title>
+					<date>1985</date>
+					<publisher>Electronic Arts</publisher>
+					<textLang>English</textLang>
+					<extent>1 folio, folded</extent>
+				</bibl>
+				<pb n="a" ana="#mProse #fStory"/>
+				<pb n="b" ana="#mProse #fStory"/>
+				<pb n="c" ana="#mProse #fStory"/>
+				<pb n="d" ana="#mProse #fStory"/>
+			</div>
+		</body>
+	</text>
+	<text xml:id="pool-of-radiance_1988">
+		<body>
+			<head>Pool of Radiance</head>
+			<div xml:id="pool-of-radiance_manual">
+				<bibl>
+					<title>Pool of Radiance</title>
+					<date>1988</date>
+					<publisher>Strategic Simulations, Inc.</publisher>
+					<textLang>English</textLang>
+					<extent>32 pages</extent>
+				</bibl>
+				<pb n="[FrontCover]" ana="#mDesign #fPeri"/>
+				<pb n="[FrontInside]" ana="#mStruct #fPeri"/>
+				<pb n="1" ana="#mProse #fUsage"/>
+				<pb n="2" ana="#mProse #fUsage"/>
+				<pb n="3" ana="#mProse #fRules"/>
+				<pb n="4" ana="#mProse #fRules"/>
+				<pb n="5" ana="#mProse #fRules"/>
+				<pb n="6" ana="#mProse #fUsage"/>
+				<pb n="7" ana="#mProse #fUsage"/>
+				<pb n="8" ana="#mProse #fUsage"/>
+				<pb n="9" ana="#mProse #fRules"/>
+				<pb n="10" ana="#mProse #fUsage"/>
+				<pb n="11" ana="#mProse #fRules #tWorld"/>
+				<pb n="12" ana="#mProse #fRules #tWorld"/>
+				<pb n="13" ana="#mProse #fRules"/>
+				<pb n="14" ana="#mProse #fRules"/>
+				<pb n="15" ana="#mProse #fRules"/>
+				<pb n="16" ana="#mProse #fRules #tBattle"/>
+				<pb n="17" ana="#mProse #fRules #tBattle"/>
+				<pb n="18" ana="#mProse #fRules #tBattle"/>
+				<pb n="19" ana="#mProse #fRules #tBattle"/>
+				<pb n="20" ana="#mProse #fRules #tBattle"/>
+				<pb n="21" ana="#mProse #fRules #tMagic"/>
+				<pb n="22" ana="#mProse #fRules #tMagic"/>
+				<pb n="23" ana="#mProse #fRules #tMagic"/>
+				<pb n="24" ana="#mStruct #fDesc #tSpells"/>
+				<pb n="25" ana="#mStruct #fDesc #tSpells"/>
+				<pb n="26" ana="#mStruct #fDesc #tSpells"/>
+				<pb n="27" ana="#mStruct #fDesc #tSpells"/>
+				<pb n="28" ana="#mStruct #fRules"/>
+				<pb n="[BackCover]" ana="#mStruct #fPeri"/>
+				<pb n="[BackInside]" ana="#mVacat"/>
+			</div>
+			<div xml:id="pool-of-radiance_journal">
+				<bibl>
+					<title>Adventurers Journal</title>
+					<date>1988</date>
+					<publisher>Strategic Simulations, Inc.</publisher>
+					<textLang>English</textLang>
+					<extent>40 pages</extent>
+				</bibl>
+				<pb n="[FrontCover]" ana="#mDesign #fStory"/>
+				<pb n="1" ana="#mProse #fUsage"/>
+				<pb n="2" ana="#mProse #fStory"/>
+				<pb n="3" ana="#mProse #fStory"/>
+				<pb n="4" ana="#mProse #fStory"/>
+				<pb n="5" ana="#mProse #fStory"/>
+				<pb n="6" ana="#mProse #fStory"/>
+				<pb n="7" ana="#mProse #fStory"/>
+				<pb n="8" ana="#mProse #fStory"/>
+				<pb n="9" ana="#mProse #fStory"/>
+				<pb n="10" ana="#mStruct #fDesc #tCreatures"/>
+				<pb n="11" ana="#mStruct #fDesc #tCreatures"/>
+				<pb n="12" ana="#mStruct #fDesc #tCreatures"/>
+				<pb n="13" ana="#mProse #fPara"/>
+				<pb n="14" ana="#mProse #fPara"/>
+				<pb n="15" ana="#mProse #fPara"/>
+				<pb n="16" ana="#mProse #fPara"/>
+				<pb n="17" ana="#mProse #mImage #fPara"/>
+				<pb n="18" ana="#mProse #mImage #fPara"/>
+				<pb n="19" ana="#mProse #mImage #fPara"/>
+				<pb n="20" ana="#mProse #fPara"/>
+				<pb n="21" ana="#mProse #mImage #fPara"/>
+				<pb n="22" ana="#mProse #mImage #fPara"/>
+				<pb n="23" ana="#mProse #mImage #fPara"/>
+				<pb n="24" ana="#mProse #fPara"/>
+				<pb n="25" ana="#mProse #mMap #fPara"/>
+				<pb n="26" ana="#mProse #mMap #fPara"/>
+				<pb n="27" ana="#mProse #mImage #fPara"/>
+				<pb n="28" ana="#mProse #fPara"/>
+				<pb n="29" ana="#mProse #fPara"/>
+				<pb n="30" ana="#mProse #fPara"/>
+				<pb n="31" ana="#mProse #fPara"/>
+				<pb n="32" ana="#mProse #mImage #fPara"/>
+				<pb n="33" ana="#mProse #fPara"/>
+				<pb n="34" ana="#mProse #fPara"/>
+				<pb n="35" ana="#mStruct #fRules"/>
+				<pb n="36" ana="#mStruct #fRules"/>
+				<pb n="37" ana="#mStruct #fRules"/>
+				<pb n="38" ana="#mStruct #fRules #tArms"/>
+				<pb n="[BackCover]" ana="#mDesign #fPeri"/>
+			</div>		
+		</body>
+	</text>
+	<text xml:id="dunkle-dimension_1989">
+		<body>
+			<head>Die Dunkle Dimension</head>
+			<div xml:id="dunkle-dimension_manual">
+				<bibl>
+					<title>Die Dunkle Dimension</title>
+					<title>Das ultimative Fantasy-Rollenspiel</title>
+					<title>Regelhandbuch</title>
+					<date>1989</date>
+					<publisher>German Design Group</publisher>
+					<textLang>German</textLang>
+					<extent>80 pages</extent>
+				</bibl>
+				<pb n="[I]" ana="#mDesign #fPeri"/>
+				<pb n="[II]" ana="#mProse #fPeri"/>
+				<pb n="[III]" ana="#mStruct #fPeri"/>
+				<pb n="[IV]" ana="#mDesign #fPeri"/>
+				<pb n="1" ana="#mProse #fStory"/>
+				<pb n="2" ana="#mProse #fStory"/>
+				<pb n="3" ana="#mProse #mImage #fStory"/>
+				<pb n="4" ana="#mProse #mScreen #fRules"/>
+				<pb n="5" ana="#mProse #fRules"/>
+				<pb n="6" ana="#mProse #mImage #fRules"/>
+				<pb n="7" ana="#mProse #fUsage"/>
+				<pb n="8" ana="#mProse #mImage #fDesc #tWorld"/>
+				<pb n="9" ana="#mProse #mImage #fDesc #tWorld"/>
+				<pb n="10" ana="#mProse #fDesc #tWorld"/>
+				<pb n="11" ana="#mProse #fDesc #tWorld"/>
+				<pb n="12" ana="#mProse #fDesc #tWorld"/>
+				<pb n="13" ana="#mProse #fDesc #tWorld"/>
+				<pb n="14" ana="#mProse #mScreen #fDesc #tWorld"/>
+				<pb n="15" ana="#mProse #mScreen #fDesc #tWorld"/>
+				<pb n="16" ana="#mProse #mScreen #fDesc #tWorld"/>
+				<pb n="17" ana="#mProse #mImage #fDesc #tWorld"/>
+				<pb n="18" ana="#mProse #fDesc #tWorld"/>
+				<pb n="19" ana="#mProse #fDesc #tWorld"/>
+				<pb n="20" ana="#mProse #fDesc #tWorld"/>
+				<pb n="21" ana="#mProse #fRules #tCreatures"/>
+				<pb n="22" ana="#mProse #mImage #mStruct #fRules #tCreatures"/>
+				<pb n="23" ana="#mProse #mImage #mStruct #fDesc #tCreatures"/>
+				<pb n="24" ana="#mProse #mImage #mStruct #fDesc #tCreatures"/>
+				<pb n="25" ana="#mProse #mImage #mStruct #fDesc #tCreatures"/>
+				<pb n="26" ana="#mProse #mImage #mStruct #fDesc #tCreatures"/>
+				<pb n="27" ana="#mProse #mImage #mStruct #fDesc #tCreatures"/>
+				<pb n="28" ana="#mProse #mImage #mStruct #fDesc #tCreatures"/>
+				<pb n="29" ana="#mProse #mImage #mStruct #fDesc #tCreatures"/>
+				<pb n="30" ana="#mProse #mImage #mStruct #fDesc #tCreatures"/>
+				<pb n="31" ana="#mProse #mImage #mStruct #fDesc #tCreatures"/>
+				<pb n="32" ana="#mProse #mImage #mStruct #fDesc #tCreatures"/>
+				<pb n="33" ana="#mProse #mImage #mStruct #fDesc #tCreatures"/>
+				<pb n="34" ana="#mProse #mImage #mStruct #fDesc #tCreatures"/>
+				<pb n="35" ana="#mProse #mImage #mStruct #fDesc #tCreatures"/>
+				<pb n="36" ana="#mProse #mImage #mStruct #fDesc #tCreatures"/>
+				<pb n="37" ana="#mProse #mImage #mStruct #fDesc #tCreatures"/>
+				<pb n="38" ana="#mProse #mImage #mStruct #fDesc #tCreatures"/>
+				<pb n="39" ana="#mProse #mImage #mStruct #fDesc #tCreatures"/>
+				<pb n="40" ana="#mProse #mImage #mStruct #fDesc #tCreatures"/>
+				<pb n="41" ana="#mProse #mImage #mStruct #fDesc #tCreatures"/>
+				<pb n="42" ana="#mProse #mImage #mStruct #fDesc #tCreatures"/>
+				<pb n="43" ana="#mProse #mImage #mStruct #fDesc #tCreatures"/>
+				<pb n="44" ana="#mProse #mImage #mStruct #fDesc #tCreatures"/>
+				<pb n="45" ana="#mProse #fRules #tArms"/>
+				<pb n="46" ana="#mProse #mImage #mStruct #fDesc #tArms"/>
+				<pb n="47" ana="#mProse #mImage #mStruct #fDesc #tArms"/>
+				<pb n="48" ana="#mProse #mImage #mStruct #fDesc #tArms"/>
+				<pb n="49" ana="#mProse #mImage #mStruct #fDesc #tArms"/>
+				<pb n="50" ana="#mProse #mImage #mStruct #fDesc #tArms"/>
+				<pb n="51" ana="#mProse #mImage #mStruct #fRules #tArms"/>
+				<pb n="52" ana="#mProse #mImage #mStruct #fDesc #tArms"/>
+				<pb n="53" ana="#mProse #mImage #mStruct #fDesc #tArms"/>
+				<pb n="54" ana="#mProse #mImage #mStruct #fDesc #tArms"/>
+				<pb n="55" ana="#mProse #fRules #tWorld"/>
+				<pb n="56" ana="#mProse #fRules"/>
+				<pb n="57" ana="#mProse #fRules"/>
+				<pb n="58" ana="#mProse #fRules"/>
+				<pb n="59" ana="#mProse #mScreen #fRules"/>
+				<pb n="60" ana="#mProse #mImage #fDesc #tMagic"/>
+				<pb n="61" ana="#mProse #mImage #fDesc #tMagic"/>
+				<pb n="62" ana="#mProse #mImage #fDesc #tMagic"/>
+				<pb n="63" ana="#mProse #fRules"/>
+				<pb n="64" ana="#mProse #fDesc #tMagic"/>
+				<pb n="65" ana="#mProse #fDesc #tMagic"/>
+				<pb n="66" ana="#mProse #fDesc #tMagic"/>
+				<pb n="67" ana="#mProse #fUsage"/>
+				<pb n="68" ana="#mStruct #fUsage"/>
+				<pb n="69" ana="#mStruct #fUsage"/>
+				<pb n="70" ana="#mStruct #fUsage"/>
+				<pb n="71" ana="#mStruct #fUsage"/>
+				<pb n="72" ana="#mStruct #fUsage"/>
+				<pb n="73" ana="#mStruct #fUsage"/>
+				<pb n="74" ana="#mStruct #fUsage"/>
+				<pb n="[75]" ana="#mProse #mImage #fPeri"/>
+				<pb n="[76]" ana="#mProse #fPeri"/>
+			</div>
+		</body>
+	</text>
+	<text xml:id="dragon-wars_1989">
+		<body>
+			<head>Dragon Wars</head>
+			<div xml:id="dragon-wars_manual">
+				<bibl>
+					<title>Dragon Wars</title>
+					<date>1989</date>
+					<publisher>Interplay</publisher>
+					<textLang>language</textLang>
+					<extent>48 pages</extent>
+				</bibl>
+				<pb n="[I]" ana="#mDesign #fPeri"/>
+				<pb n="[II]" ana="#mProse #fPeri"/>
+				<pb n="[III]" ana="#mStruct #fPeri"/>
+				<pb n="[IV]" ana="#mStruct #fPeri"/>
+				<pb n="1" ana="#mProse #fStory"/>
+				<pb n="2" ana="#mProse #fStory"/>
+				<pb n="3" ana="#mProse #fRules"/>
+				<pb n="4" ana="#mProse #fRules"/>
+				<pb n="5" ana="#mProse #fRules"/>
+				<pb n="6" ana="#mProse #fRules"/>
+				<pb n="7" ana="#mProse #fRules #tMagic"/>
+				<pb n="8" ana="#mProse #fRules #tMagic"/>
+				<pb n="9" ana="#mStruct #fDesc #tSpells"/>
+				<pb n="10" ana="#mStruct #fDesc #tSpells"/>
+				<pb n="11" ana="#mStruct #fDesc #tSpells"/>
+				<pb n="12" ana="#mStruct #fDesc #tSpells"/>
+				<pb n="13" ana="#mStruct #fDesc #tSpells"/>
+				<pb n="14" ana="#mStruct #fDesc #tSpells"/>
+				<pb n="15" ana="#mStruct #fDesc #tSpells"/>
+				<pb n="16" ana="#mProse #fRules #tBattle"/>
+				<pb n="17" ana="#mProse #fDesc #tWorld"/>
+				<pb n="18" ana="#mProse #fDesc #tWorld"/>
+				<pb n="19" ana="#mProse #mMap #fDesc #tWorld"/>
+				<pb n="20" ana="#mProse #fPara"/>
+				<pb n="21" ana="#mProse #fPara"/>
+				<pb n="22" ana="#mProse #fPara"/>
+				<pb n="23" ana="#mProse #fPara"/>
+				<pb n="24" ana="#mProse #fPara"/>
+				<pb n="25" ana="#mProse #fPara"/>
+				<pb n="26" ana="#mProse #fPara"/>
+				<pb n="27" ana="#mProse #fPara"/>
+				<pb n="28" ana="#mProse #fPara"/>
+				<pb n="29" ana="#mProse #fPara"/>
+				<pb n="30" ana="#mProse #fPara"/>
+				<pb n="31" ana="#mProse #fPara"/>
+				<pb n="32" ana="#mProse #fPara"/>
+				<pb n="33" ana="#mProse #fPara"/>
+				<pb n="34" ana="#mProse #fPara"/>
+				<pb n="35" ana="#mProse #fPara"/>
+				<pb n="36" ana="#mProse #fPara"/>
+				<pb n="37" ana="#mProse #fPara"/>
+				<pb n="38" ana="#mProse #fPara"/>
+				<pb n="39" ana="#mProse #fPara"/>
+				<pb n="40" ana="#mProse #fPara"/>
+				<pb n="41" ana="#mProse #fPara"/>
+				<pb n="42" ana="#mProse #fPara"/>
+				<pb n="[43]" ana="#mProse #fPeri"/>
+				<pb n="[44]" ana="#mProse #mImage #fPeri"/>
+			</div>
+			<!--<div xml:id="dragon-wars_reference-card">
+				<bibl>
+					<title>Dragon Wars Reference Card</title>
+					<extent>8 pages</extent>
+				</bibl>
+				<pb n="1" ana="#mProse #fUsage"/>
+				<pb n="2" ana="#mProse #fUsage"/>
+				<pb n="3" ana="#mProse #mImage #fUsage"/>
+				<pb n="4" ana="#mProse #mImage #fUsage"/>
+				<pb n="5" ana="#mProse #fUsage"/>
+				<pb n="6" ana="#mProse #mImage #fUsage"/>
+				<pb n="7" ana="#mProse #fUsage"/>
+				<pb n="8" ana="#mProse #fPeri"/>
+			</div>-->
+		</body>
+	</text>
+	<text xml:id="dark-heart-of-uukrul_1989">
+		<body>
+			<head>The Dark Heart of Uukrul</head>
+			<div xml:id="dark-heart-of-uukrul_manual">
+				<bibl>
+					<title>The Dark Heart of Uukrul</title>
+					<date>1989</date>
+					<publisher>Broderbund</publisher>
+					<textLang>English</textLang>
+					<extent>76 pages</extent>
+				</bibl>
+				<pb n="[1]" ana="#mDisplay #fPeri"/>
+				<pb n="2" ana="#mStruct #fPeri"/>
+				<pb n="3" ana="#mStruct #fPeri"/>
+				<pb n="4" ana="#mProse #fStory"/>
+				<pb n="5" ana="#mProse #fStory"/>
+				<pb n="6" ana="#mProse #fStory"/>
+				<pb n="7" ana="#mProse #fUsage"/>
+				<pb n="8" ana="#mProse #fUsage"/>
+				<pb n="9" ana="#mProse #fUsage"/>
+				<pb n="10" ana="#mProse #fUsage"/>
+				<pb n="11" ana="#mProse #fUsage"/>
+				<pb n="12" ana="#mProse #mScreen #fRules"/>
+				<pb n="13" ana="#mProse #fRules"/>
+				<pb n="14" ana="#mProse #mScreen #fRules"/>
+				<pb n="15" ana="#mProse #mScreen #fRules"/>
+				<pb n="16" ana="#mProse #fRules"/>
+				<pb n="17" ana="#mProse #fRules"/>
+				<pb n="18" ana="#mProse #fRules"/>
+				<pb n="19" ana="#mProse #fRules"/>
+				<pb n="20" ana="#mProse #fDesc #tWorld"/>
+				<pb n="21" ana="#mProse #fDesc #tWorld"/>
+				<pb n="22" ana="#mProse #mScreen #fRules"/>
+				<pb n="23" ana="#mProse #fRules"/>
+				<pb n="24" ana="#mProse #fRules"/>
+				<pb n="25" ana="#mProse #fRules"/>
+				<pb n="26" ana="#mProse #fDesc #tWorld"/>
+				<pb n="27" ana="#mProse #mScreen #fUsage"/>
+				<pb n="28" ana="#mStruct #fUsage"/>
+				<pb n="29" ana="#mProse #mScreen #fDesc #tBattle"/>
+				<pb n="30" ana="#mProse #fRules"/>
+				<pb n="31" ana="#mProse #fRules"/>
+				<pb n="32" ana="#mProse #fUsage"/>
+				<pb n="33" ana="#mProse #fRules"/>
+				<pb n="34" ana="#mProse #mImage #fPeri"/>
+				<pb n="35" ana="#mDesign #fPeri"/>
+				<pb n="36" ana="#mProse #fDesc #tMagic"/>
+				<pb n="37" ana="#mProse #fDesc #tMagic"/>
+				<pb n="38" ana="#mProse #fDesc #tMagic"/>
+				<pb n="39" ana="#mProse #fDesc #tMagic"/>
+				<pb n="40" ana="#mProse #fDesc #tMagic"/>
+				<pb n="41" ana="#mProse #fDesc #tMagic"/>
+				<pb n="42" ana="#mProse #fDesc #tMagic"/>
+				<pb n="43" ana="#mProse #fDesc #tMagic"/>
+				<pb n="44" ana="#mProse #fDesc #tMagic"/>
+				<pb n="45" ana="#mProse #fDesc #tMagic"/>
+				<pb n="46" ana="#mProse #fDesc #tMagic"/>
+				<pb n="47" ana="#mProse #fDesc #tMagic"/>
+				<pb n="48" ana="#mProse #fDesc #tMagic"/>
+				<pb n="49" ana="#mProse #fDesc #tMagic"/>
+				<pb n="50" ana="#mProse #fDesc #tMagic"/>
+				<pb n="51" ana="#mProse #fDesc #tMagic"/>
+				<pb n="52" ana="#mProse #fDesc #tMagic"/>
+				<pb n="53" ana="#mProse #fDesc #tMagic"/>
+				<pb n="54" ana="#mDesign #fPeri"/>
+				<pb n="55" ana="#mProse #fDesc #tMagic"/>
+				<pb n="56" ana="#mProse #fDesc #tMagic"/>
+				<pb n="57" ana="#mProse #fDesc #tMagic"/>
+				<pb n="58" ana="#mProse #fDesc #tMagic"/>
+				<pb n="59" ana="#mProse #fDesc #tMagic"/>
+				<pb n="60" ana="#mProse #fDesc #tMagic"/>
+				<pb n="61" ana="#mProse #fDesc #tMagic"/>
+				<pb n="62" ana="#mProse #fDesc #tMagic"/>
+				<pb n="63" ana="#mDesign #fPeri"/>
+				<pb n="64" ana="#mProse #fStory"/>
+				<pb n="65" ana="#mProse #fStory"/>
+				<pb n="66" ana="#mProse #fStory"/>
+				<pb n="67" ana="#mProse #fStory"/>
+				<pb n="68" ana="#mProse #fStory"/>
+				<pb n="69" ana="#mProse #fStory"/>
+				<pb n="70" ana="#mProse #fStory"/>
+				<pb n="71" ana="#mProse #fStory"/>
+				<pb n="72" ana="#mProse #fStory"/>
+				<pb n="73" ana="#mStruct #fUsage"/>
+				<pb n="74" ana="#mStruct #fUsage"/>
+				<pb n="75" ana="#mProse #fPeri"/>
+				<pb n="76" ana="#mDesign #fPeri"/>
+			</div>
+		</body>
+	</text>
+	<!-- template -->
+	<!--<text xml:id="template_game">
+		<body>
+			<head>game</head>
+			<div xml:id="template_manual">
+				<bibl>
+					<title>title</title>
+					<date>date</date>
+					<publisher>publisher</publisher>
+					<textLang>language</textLang>
+					<extent>## pages</extent>
+				</bibl>
+				<pb n="[I]" ana="#undefined"/>
+				<pb n="[II]" ana="#undefined"/>
+				<pb n="[III]" ana="#undefined"/>
+				<pb n="[IV]" ana="#undefined"/>
+				<pb n="[V]" ana="#undefined"/>
+				<pb n="[VI]" ana="#undefined"/>
+				<pb n="[VII]" ana="#undefined"/>
+				<pb n="[VIII]" ana="#undefined"/>
+				<pb n="1" ana="#undefined"/>
+				<pb n="2" ana="#undefined"/>
+				<pb n="3" ana="#undefined"/>
+				<pb n="4" ana="#undefined"/>
+				<pb n="5" ana="#undefined"/>
+				<pb n="6" ana="#undefined"/>
+				<pb n="7" ana="#undefined"/>
+				<pb n="8" ana="#undefined"/>
+				<pb n="9" ana="#undefined"/>
+				<pb n="10" ana="#undefined"/>
+				<pb n="11" ana="#undefined"/>
+				<pb n="12" ana="#undefined"/>
+				<pb n="13" ana="#undefined"/>
+				<pb n="14" ana="#undefined"/>
+				<pb n="15" ana="#undefined"/>
+				<pb n="16" ana="#undefined"/>
+				<pb n="17" ana="#undefined"/>
+				<pb n="18" ana="#undefined"/>
+				<pb n="19" ana="#undefined"/>
+				<pb n="20" ana="#undefined"/>
+				<pb n="21" ana="#undefined"/>
+				<pb n="22" ana="#undefined"/>
+				<pb n="23" ana="#undefined"/>
+				<pb n="24" ana="#undefined"/>
+				<pb n="25" ana="#undefined"/>
+				<pb n="26" ana="#undefined"/>
+				<pb n="27" ana="#undefined"/>
+				<pb n="28" ana="#undefined"/>
+				<pb n="29" ana="#undefined"/>
+				<pb n="30" ana="#undefined"/>
+				<pb n="31" ana="#undefined"/>
+				<pb n="32" ana="#undefined"/>
+				<pb n="33" ana="#undefined"/>
+				<pb n="34" ana="#undefined"/>
+				<pb n="35" ana="#undefined"/>
+				<pb n="36" ana="#undefined"/>
+				<pb n="37" ana="#undefined"/>
+				<pb n="38" ana="#undefined"/>
+				<pb n="39" ana="#undefined"/>
+				<pb n="40" ana="#undefined"/>
+				<pb n="41" ana="#undefined"/>
+				<pb n="42" ana="#undefined"/>
+				<pb n="43" ana="#undefined"/>
+				<pb n="44" ana="#undefined"/>
+				<pb n="45" ana="#undefined"/>
+				<pb n="46" ana="#undefined"/>
+				<pb n="47" ana="#undefined"/>
+				<pb n="48" ana="#undefined"/>
+				<pb n="49" ana="#undefined"/>
+				<pb n="50" ana="#undefined"/>
+				<pb n="51" ana="#undefined"/>
+				<pb n="52" ana="#undefined"/>
+				<pb n="53" ana="#undefined"/>
+				<pb n="54" ana="#undefined"/>
+				<pb n="55" ana="#undefined"/>
+				<pb n="56" ana="#undefined"/>
+				<pb n="57" ana="#undefined"/>
+				<pb n="58" ana="#undefined"/>
+				<pb n="59" ana="#undefined"/>
+				<pb n="60" ana="#undefined"/>
+				<pb n="61" ana="#undefined"/>
+				<pb n="62" ana="#undefined"/>
+				<pb n="63" ana="#undefined"/>
+				<pb n="64" ana="#undefined"/>
+				<pb n="65" ana="#undefined"/>
+				<pb n="66" ana="#undefined"/>
+				<pb n="67" ana="#undefined"/>
+				<pb n="68" ana="#undefined"/>
+				<pb n="69" ana="#undefined"/>
+				<pb n="70" ana="#undefined"/>
+				<pb n="71" ana="#undefined"/>
+				<pb n="72" ana="#undefined"/>
+				<pb n="73" ana="#undefined"/>
+				<pb n="74" ana="#undefined"/>
+				<pb n="75" ana="#undefined"/>
+				<pb n="76" ana="#undefined"/>
+				<pb n="77" ana="#undefined"/>
+				<pb n="78" ana="#undefined"/>
+				<pb n="79" ana="#undefined"/>
+				<pb n="80" ana="#undefined"/>
+				<pb n="81" ana="#undefined"/>
+				<pb n="82" ana="#undefined"/>
+				<pb n="83" ana="#undefined"/>
+				<pb n="84" ana="#undefined"/>
+				<pb n="85" ana="#undefined"/>
+				<pb n="86" ana="#undefined"/>
+				<pb n="87" ana="#undefined"/>
+				<pb n="88" ana="#undefined"/>
+				<pb n="89" ana="#undefined"/>
+				<pb n="90" ana="#undefined"/>
+				<pb n="91" ana="#undefined"/>
+				<pb n="92" ana="#undefined"/>
+				<pb n="93" ana="#undefined"/>
+				<pb n="94" ana="#undefined"/>
+				<pb n="95" ana="#undefined"/>
+				<pb n="96" ana="#undefined"/>
+				<pb n="97" ana="#undefined"/>
+				<pb n="98" ana="#undefined"/>
+				<pb n="99" ana="#undefined"/>
+				<pb n="100" ana="#undefined"/>
+			</div>
+		</body>
+	</text>-->
+</TEI>
